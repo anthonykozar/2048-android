@@ -51,6 +51,38 @@ android {
         }
     }
 
+    flavorDimensions "gamevariant"
+
+    productFlavors {
+        original {
+            dimension "gamevariant"
+        }
+
+        sixbysix {
+            dimension "gamevariant"
+            applicationId "com.uberspot.a2048dev.a6x6"
+            versionName "2.2 (6x6)"
+        }
+    }
+
+    android.sourceSets.original {
+        res {
+            srcDir 'original'
+        }
+        resources {
+            srcDir 'original'
+        }
+    }
+
+    android.sourceSets.sixbysix {
+        res {
+            srcDir 'sixbysix'
+        }
+        resources {
+            srcDir 'sixbysix'
+        }
+    }
+
     lintOptions {
         disable 'GoogleAppIndexingWarning'
     }
