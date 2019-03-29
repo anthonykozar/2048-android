@@ -1,4 +1,4 @@
-package com.uberspot.a2048;
+package com.uberspot.a2048dev;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
