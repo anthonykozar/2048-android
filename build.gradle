@@ -25,11 +25,11 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.uberspot.a2048dev"
+        applicationId "net.anthonykozar.a2048variants"
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode 25
-        versionName "2.2"
+        versionCode 10000
+        versionName '1.0.0'
     }
 
     sourceSets {
@@ -57,11 +57,10 @@ android {
         original {
             dimension "gamevariant"
         }
-
         sixbysix {
             dimension "gamevariant"
-            applicationId "com.uberspot.a2048dev.a6x6"
-            versionName "2.2 (6x6)"
+            applicationId "net.anthonykozar.a2048variants.a6x6"
+            versionName '1.0.0 (6x6)'
         }
     }
 
