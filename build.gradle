@@ -67,19 +67,19 @@ android {
 
     android.sourceSets.original {
         res {
-            srcDir 'original'
+            srcDir 'original/res'
         }
         resources {
-            srcDir 'original'
+            srcDir 'original/res'
         }
     }
 
     android.sourceSets.sixbysix {
         res {
-            srcDir 'sixbysix'
+            srcDir 'sixbysix/res'
         }
         resources {
-            srcDir 'sixbysix'
+            srcDir 'sixbysix/res'
         }
     }
 
