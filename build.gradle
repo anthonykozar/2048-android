@@ -62,6 +62,10 @@ android {
             applicationId "net.anthonykozar.a2048variants.a6x6"
             versionName '1.0.0 (6x6)'
         }
+        prime {
+            applicationId 'net.anthonykozar.a2048variants.prime'
+            versionNameSuffix ' (Prime)'
+        }
     }
 
     android.sourceSets.original {
@@ -79,6 +83,15 @@ android {
         }
         resources {
             srcDir 'sixbysix/res'
+        }
+    }
+
+    android.sourceSets.prime {
+        res {
+            srcDir 'prime/res'
+        }
+        resources {
+            srcDir 'prime/res'
         }
     }
 
