@@ -60,11 +60,15 @@ android {
         sixbysix {
             dimension "gamevariant"
             applicationId "net.anthonykozar.a2048variants.a6x6"
-            versionName '1.0.0 (6x6)'
+            versionNameSuffix ' (6x6)'
         }
         prime {
             applicationId 'net.anthonykozar.a2048variants.prime'
             versionNameSuffix ' (Prime)'
+        }
+        fibonacci {
+            applicationId 'net.anthonykozar.a2048variants.fibonacci'
+            versionNameSuffix ' (1597)'
         }
     }
 
@@ -92,6 +96,15 @@ android {
         }
         resources {
             srcDir 'prime/res'
+        }
+    }
+
+    android.sourceSets.fibonacci {
+        res {
+            srcDir 'fibonacci/res'
+        }
+        resources {
+            srcDir 'fibonacci/res'
         }
     }
 
